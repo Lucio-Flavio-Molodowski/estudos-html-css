@@ -1,0 +1,67 @@
+* {
+	font-family: sans-serif;
+}
+
+/* reset css  */
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;	
+}
+
+body {
+ background-color: #E2EBED
+}
+
+#wrapper {
+  width: 725px;
+  min-height: 100%;
+  margin: auto;
+  padding: 0px 10px;
+  background-color: #FFFFFF;
+}
+
+#content {
+  min-height: 100%;
+}
+
+#top  {
+  height: 80px;
+}
+
+#toptxt {
+  width: 724px;
+  height: 171px;
+  text-align: left;
+  display: block;
+  background: url('../images/background.jpg');
+}
+
+#toptxt p {
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+  line-height: 20px;
+  width: 165px;
+  padding: 20px 0px 40px 30px;
+  float: left;
+}
+
+#sidebar {
+  font-size: 13px;
+  width: 168px;
+  margin-right: 65px;
+  float: left;
+}
+
+#sidebar ul {
+  list-style: none;
+}
+
+#txt {
+  font-size: 15px;
+  width: 490px;
+  margin: auto;
+  float: left;
+}
