@@ -59,6 +59,10 @@ body {
   list-style: none;
 }
 
+#sidebar ul li {
+  border-bottom: 1px solid #317082;
+}
+
 #txt {
   font-size: 15px;
   width: 490px;
