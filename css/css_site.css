@@ -1,5 +1,6 @@
 * {
-	font-family: sans-serif;
+	font-family: Trebuchet MS, Lucida Sans Unicode, Arial, sans-serif;
+	font: 13px;
 }
 
 /* reset css  */
@@ -30,6 +31,9 @@ body {
 #top  {
   height: 80px;
 }
+#top h2 {
+  margin: 0px;
+}
 
 #toptxt {
   width: 724px;
@@ -41,10 +45,10 @@ body {
 
 #toptxt p {
   color: rgb(255, 255, 255);
-  font-size: 12px;
+  font-size: 13px;
   line-height: 20px;
   width: 165px;
-  padding: 20px 0px 40px 30px;
+  padding: 10px 0px 40px 40px;
   float: left;
 }
 
@@ -63,9 +67,30 @@ body {
   border-bottom: 1px solid #317082;
 }
 
+#sidebar nav h3 {
+  margin: 30px 0px 0px 40px;
+}
+
+#sidebar nav li {
+  width: 128px;
+  margin: 0px 40px;
+  border-bottom: 1px solid #317082;
+  line-height: 30px;
+  list-style: none;
+}
+
 #txt {
   font-size: 15px;
   width: 490px;
   margin: auto;
   float: left;
+}
+
+#bottom {
+ font-size: 13px;
+ color: #FFFFFF;
+ background-color: #578B9A;
+ border: solid #578B9A 5px;
+ border-radius: 10px;
+ text-align: right;
 }
