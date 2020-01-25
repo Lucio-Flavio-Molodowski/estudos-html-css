@@ -1,0 +1,189 @@
+body {
+  background-color: #FFFFFF;
+}
+
+#header {
+  z-index: 9999;
+  position: sticky;
+  top: 0;
+}
+
+#pagelogo {
+  width: 138px;
+  height: 41px;
+  margin: 30px;
+  background: url('../images/logo.webp') no-repeat;
+  float: left;
+}
+
+#pagelogo span {
+  display: none;
+}
+
+#menu {
+  text-transform: capitalize;
+  width: 94%;
+  height: 110px;
+  background-color: #FFFFFF;
+  float: left;
+}
+
+#listamenu {
+  font-size: 20px;
+  width: 630px;
+  height: 30px;
+  margin: 40px;
+  float: left;
+}
+
+#listamenu li {
+  margin-left: 25px;
+  text-align: inline;
+  display: inline;
+}
+
+.option {
+  background: url('../images/backgroundlist.png');
+}
+
+#search {
+  width: 6%;
+  height: 110px;
+  background-color: #FF4A52;
+  float: left;
+}
+
+#banners h1{
+  color: #FFFFFF;
+  font: 140px 'Dancing Script', cursive;
+  text-align: center;
+  position: absolute;
+  top: 40%;
+  left: 31%;
+}
+
+#banners h2 {
+  color: #FFFFFF;
+  font: 50px;
+  text-align: center;
+  position: absolute;
+  top: 64%;
+  left: 33%;
+}
+
+#banners button {
+  color: #FFFFFF;
+  font: 15px arial, sans-serif;
+  font-weight: bold;
+  width: 178px;
+  height: 60px;
+  background-color: #1EC6B6;
+  border-radius: 5px;
+  position: absolute;
+  top: 75%;
+  left: 42%;
+}
+
+#banners img {
+  width: 100%;
+  height: 650px;
+  position: relative;
+}
+	
+#div1 {
+  width: 100%;
+  height: 150px;
+  background-color: #040E27;
+}
+
+#div1 h1 {
+  color: #FFFFFF;
+  font: 25px sans-serif;
+  width: 2900px;
+  height: 25px;
+  margin: 60px 10px 0px 90px;
+  position: absolute;
+  float: left;
+}
+
+input#local {
+  color: #FFFFFF;
+  font: 17px arial, sans-serif;
+  width: 220px;
+  height: 50px;
+  border: 1px #757575 solid;
+  border-radius: 5px;
+  background-color: #040E27;
+  margin: 50px 30px 0px 390px;
+  padding-left: 10px;
+  position: absolute;
+  float: left;
+}
+
+input#local::placeholder {
+  font: 17px arial, sans-serif;
+}
+
+input#date {
+  color: #FFFFFF;
+  font: 17px arial, sans-serif;
+  width: 220px;
+  height: 50px;
+  border: 1px #757575 solid;
+  border-radius: 5px;
+  background-color: #040E27;
+  margin: 50px 30px 0px 620px;
+  padding-left: 10px;
+  position: absolute;
+  float: left;
+}
+
+input#date::placeholder {
+  font: 17px arial, sans-serif;
+}
+
+#traveltype {
+  color: #757575;
+  font: 17px arial, sans-serif;
+  width: 220px;
+  height: 50px;
+  border: 1px #757575 solid;
+  border-radius: 5px;
+  background-color: #040E27;
+  margin: 50px 30px 0px 850px;
+  padding-left: 10px;
+  position: absolute;
+  float: left;	
+}
+
+#button2 {
+  color: #FFFFFF;
+  font: 17px arial, sans-serif;
+  font-weight: bold;
+  width: 134px;
+  height: 50px;
+  background-color: #FF4A52;
+  margin: 50px 30px 0px 1080px;
+  border-radius: 5px;
+  position: absolute;
+}
+
+#div2 {
+  width: 100%;
+  height: 1020px;
+  background-color: #FFFFFF;
+}
+
+#div2 h1 {
+  font: 38px arial, sans-serif;
+  text-align: center;
+  margin-top: 150px;
+}
+
+#div2 p {
+  font: 17px arial, sans-serif;
+  width: 500px;
+  height: 42px;
+  margin-left: 430px;
+  text-align: center;
+}
