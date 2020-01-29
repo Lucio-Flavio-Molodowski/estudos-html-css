@@ -39,12 +39,17 @@ body {
 
 #listamenu li {
   margin-left: 25px;
-  text-align: inline;
   display: inline;
 }
 
-.optionbutton {
+#listamenu li span {
   background: url('../images/backgroundlist.png');
+  background-position: 29px 5px;
+  width: 16px;
+  height: 25px;
+  display: inline-block;
+  position: relative;
+  right: -8px;
 }
 
 #search {
@@ -322,7 +327,6 @@ input#date::placeholder {
   width: 100%;
   height: 230px;
   background: url(../images/newsletter.webp);
-  position: inherit;
   opacity: .7;
 }
 
@@ -449,11 +453,17 @@ input#date::placeholder {
 }
 
 .h3div4 {
+  color: #040E27;
+  text-decoration: none;
   font: 22px arial, sans-serif;
   padding-top: 230px;
   margin-left: 20px;
   float: left;
   position: absolute;
+}
+
+.h3div4:hover {
+	color: #FF4A52;
 }
 
 .pricediv4 {
@@ -559,7 +569,6 @@ input#date::placeholder {
   width: 100%;
   height: 610px;
   background: url('../images/bannervideo.webp');
-  position: inherit;
 }
 
 #div5 #titlevideo {
@@ -585,7 +594,6 @@ input#date::placeholder {
   height: 485px;
   margin: auto;
   background-color: #FFFFFF;
-  position: inherit;
 }
 
 #div6 .h3logo {
@@ -655,8 +663,8 @@ input#date::placeholder {
   padding: 15px 27px 0px 20px;
   background-color: #1EC6B6;
   border-radius: 100px;
-  display: block;
   position: absolute;
+  display: block;
 }
 
 #div7 #title {
@@ -677,7 +685,7 @@ input#date::placeholder {
 
 #div8 {
   width: 100%;
-  height: 755px;
+  height: 630px;
 }
 
 #div8 h3 {
@@ -687,10 +695,177 @@ input#date::placeholder {
 }
 
 #div8 #imgdiv1 {
-
+  margin-top: 70px;
+  margin-left: 120px;
+  width: 362px;
+  height: 370px;
+  float: left;
 }
 
-#div8 #imgdiv1 img {
-  margin-top: 75px;
+#div8 #imgdiv1 {
+  margin-top: 70px;
+  margin-left: 110px;
+  width: 362px;
+  height: 370px;
+  float: left;
+}
+
+#div8 #imgdiv1 .divimg {
+  border-radius: 5px;
+}
+
+#div8 #imgdiv1 p {
+  color: #7A838B;
+  margin-top: 16px;
+}
+
+#div8 #imgdiv1 .titlepdiv {
+  color: #040E27;
+  font: 22px arial, sans-serif;
+  margin-top: 10px;
+}
+
+#div8 .imgdiv2_3 {
+  margin-top: 70px;
+  margin-left: 30px;
+  width: 362px;
+  height: 370px;
+  float: left;
+}
+
+#div8 .imgdiv2_3 .divimg {
+  border-radius: 5px;
+}
+
+#div8 .imgdiv2_3 p {
+  color: #7A838B;
+  margin-top: 16px;
+}
+
+#div8 .imgdiv2_3 .titlepdiv {
+  color: #040E27;
+  font: 22px arial, sans-serif;
+  margin-top: 10px;
+}
+
+#div9 {
+  width: 100%;
+  height: 593px;
+  background-color: #040E27;
+}
+
+#div9 #div9_1 {
+  width: 350px;
+  height: 272px;
+  float: left;
+}
+
+#div9 #div9_1 #img1_9 {
+  margin-top: 116px;
   margin-left: 120px;
+}
+
+#div9 #div9_1 #p1 {
+  color: #AAB1B7;
+  font: 14px arial, sans-serif;
+  line-height: 25px;
+  margin-top: 40px;	
+  margin-left: 120px;
+}
+
+#div9 #div9_2 {
+  width: 90px;
+  margin-top: 118px;
+  margin-left: 160px;
+  float: left;
+}
+
+#div9 #div9_2 h3 {
+  color: #FFFFFF;
+  font: 20px arial, sans-serif;
+}
+
+#div9 #div9_2 ul {
+  color: #AAB1B7;
+  font: 14px arial, sans-serif;
+  line-height: 35px;
+  margin-top: 36px;
+}
+
+#div9 #div9_3 {
+  width: 285px;
+  margin-top: 118px;
+  margin-left: 100px;
+  float: left;
+}
+
+#div9 #div9_3 h3 {
+  color: #FFFFFF;
+  font: 20px arial, sans-serif;
+}
+
+#div9 #div9_3 ul {
+  color: #AAB1B7;
+  font: 14px arial, sans-serif;
+  width: 200px;
+  height: 185px;
+  margin-top: 36px;
+}
+
+#div9 #div9_3 ul li {
+  width: 100px;
+  height: 30px;
+  line-height: 40px;
+  float: left;
+}
+
+#div9 #div9_4 {
+  width: 270px;
+  height: 185px;
+  margin-top: 118px;
+  float: left;
+}
+
+#div9 #div9_4 h3 {
+  color: #FFFFFF;
+  font: 20px arial, sans-serif;
+}
+
+#div9 #div9_4 ul {
+  width: 265px;
+  height: 168px;
+  margin-top: 40px;
+}
+
+#div9 #div9_4 ul li {
+  width: 75px;
+  height: 75px;
+  display: inline
+}
+
+#div9 #div9_4 ul li img {
+  border-radius: 5px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+#div9 #footer {
+  width: 1110px;
+  height: 82px;
+  margin-top: 148px;
+  margin-left: 120px;
+  border-top: 1px #AAB1B7 solid;
+  float: left;
+}
+
+#div9 #footer p {
+  color: #AAB1B7;
+  font: 14px arial, sans-serif;
+  text-align: center;
+  padding-top: 30px;
+}
+
+#div9 #footer p a {
+  color: #FF4A52;
+  text-decoration: none;
 }
